@@ -63,13 +63,13 @@ Git хеширует (преобразует) информацию о комми
 
 ## Жизненный цикл файлах
 
-''' mermaid
-flowchart TD
+```mermaid
+  graph TD;
 	A[untracked] -- git add -->B[staged + tracked];
 	B -- git commit --> C[tracked];
 	C -- изменения --> D[modified];
 	D -- git add --> B[staged + tracked];
-'''
+```
 
 
 
